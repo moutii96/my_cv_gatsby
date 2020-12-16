@@ -8,6 +8,7 @@
   "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {
     "build": "gatsby build",
+    "dev": "nodemon --exec 'gatsby develop -H 0.0.0.0'",
     "develop": "gatsby develop",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
